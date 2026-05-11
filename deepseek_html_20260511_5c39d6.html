@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8">
+  <title>佛说阿弥陀经 | 净土宗经典 | 全文阅读及视频</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="佛说阿弥陀经全文，鸠摩罗什译本。包含经文朗读视频、简体/繁体切换、护眼模式。净土宗必读经典，极乐世界庄严描述。">
+  <meta name="keywords" content="佛说阿弥陀经,阿弥陀经,净土宗,佛经,鸠摩罗什,极乐世界,念佛">
+  <meta name="author" content="amtb.cc">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.amtb.cc/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://www.amtb.cc/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://www.amtb.cc/?lang=tw">
+  <link rel="icon" href="https://pub-bfae9b39b66c495c8c35815699865b03.r2.dev/favicon.ico.png" type="image/png">
+
+  <!-- Cloudflare Fonts (Google Fonts proxy) -->
+  <link rel="stylesheet" href="https://fonts.cloudflare.com/css?family=Noto+Serif+SC:400,400i,700,700i&display=swap">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="佛说阿弥陀经">
+  <meta property="og:description" content="佛说阿弥陀经 · 全文阅读 · 视频播放 · 光明清净">
+  <meta property="og:image" content="https://pub-bfae9b39b66c495c8c35815699865b03.r2.dev/1.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:url" content="https://www.amtb.cc">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:locale:alternate" content="zh_TW">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="佛说阿弥陀经">
+  <meta name="twitter:description" content="佛说阿弥陀经全文阅读，视频播放，净土宗经典。">
+  <meta name="twitter:image" content="https://pub-bfae9b39b66c495c8c35815699865b03.r2.dev/1.png">
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Book",
+    "name": "佛说阿弥陀经",
+    "alternateName": "Sukhavati-vyuha Sutra",
+    "author": {
+      "@type": "Person",
+      "name": "鸠摩罗什"
+    },
+    "translator": {
+      "@type": "Person",
+      "name": "鸠摩罗什"
+    },
+    "about": "净土宗根本经典，描述极乐世界庄严及阿弥陀佛愿力。",
+    "inLanguage": ["zh-Hans", "zh-Hant"],
+    "url": "https://www.amtb.cc/",
+    "thumbnailUrl": "https://pub-bfae9b39b66c495c8c35815699865b03.r2.dev/1.png",
+    "image": "https://pub-bfae9b39b66c495c8c35815699865b03.r2.dev/1.png",
+    "datePublished": "2024-01-01",
+    "dateModified": "2026-05-11"
+  }
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/opencc-js@1.0.5/dist/umd/full.js"></script>
+  <style>
+    :root {
+      --bg-color: #121212;
+      --text-color: #e0e0e0;
+      --highlight: #ffd54f;
+      --box-bg: rgba(255, 255, 255, 0.05);
+      --control-bg: rgba(30, 30, 40, 0.85);
+      --control-border: rgba(255, 255, 255, 0.2);
+    }
+
+    body.light {
+      --bg-color: #f9f9f9;
+      --text-color: #333;
+      --highlight: #c2185b;
+      --box-bg: rgba(0, 0, 0, 0.05);
+      --control-bg: rgba(245, 245, 250, 0.9);
+      --control-border: rgba(0, 0, 0, 0.15);
+    }
+
+    body {
+      margin: 0;
+      font-family: "Noto Serif SC", serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      line-height: 1.8;
+      padding: 20px;
+      text-align: center;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      font-weight: 700;
+      text-align: center;
+      letter-spacing: 6px;
+      color: #ecd48c;
+      text-shadow: 0 0 15px rgba(212, 175, 55, 0.5);
+      margin-top: 60px;
+      margin-bottom: 0.4rem;
+      line-height: 1.4;
+    }
+
+    p {
+      max-width: 800px;
+      margin: 1.5em auto;
+      font-size: 1.3rem;
+    }
+  
+    #videoCover {
+      cursor: pointer;
+      margin-top: 30px;
+    }
+
+    #videoCover img {
+      width: 95%;
+      max-width: 1000px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease;
+    }
+
+    #videoCover img:hover {
+      transform: scale(1.02);
+    }
+
+    #videoCover p {
+      font-size: 1.2rem;
+      color: #90caf9;
+      margin-top: 12px;
+    }
+
+    #amitabhaVideo {
+      display: none;
+      width: 100%;
+      max-width: 1000px;
+      margin: 20px auto;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    }
+
+    #sutra {
+      margin-top: 40px;
+      padding: 20px;
+      background: var(--box-bg);
+      border-radius: 12px;
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: justify;
+    }
+
+    /* ========= 浮动 topControls (浮定效果) ========= */
+    #topControls {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      display: flex;
+      flex-direction: row-reverse;
+      gap: 12px;
+      z-index: 9999;
+      background: var(--control-bg);
+      backdrop-filter: blur(12px);
+      padding: 10px 16px;
+      border-radius: 48px;
+      border: 1px solid var(--control-border);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      transition: background 0.3s, border-color 0.3s, box-shadow 0.3s;
+    }
+
+    /* 让内部按钮组横向排列 (fontControls 改为横向) */
+    #fontControls {
+      display: flex;
+      flex-direction: row;
+      gap: 8px;
+    }
+
+    /* 所有控制按钮统一样式 */
+    #fontControls button,
+    #toggleMode,
+    #toggleLang,
+    #shareLink {
+      background: transparent;
+      color: var(--text-color);
+      border: 1px solid var(--control-border);
+      padding: 6px 14px;
+      border-radius: 32px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.25s ease;
+      backdrop-filter: blur(4px);
+      font-family: inherit;
+      letter-spacing: 1px;
+    }
+
+    #fontControls button:hover,
+    #toggleMode:hover,
+    #toggleLang:hover,
+    #shareLink:hover {
+      background: var(--highlight);
+      color: #1e1e2a;
+      border-color: var(--highlight);
+      transform: translateY(-2px);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    /* 针对亮色模式 hover 优化 */
+    body.light #fontControls button:hover,
+    body.light #toggleMode:hover,
+    body.light #toggleLang:hover,
+    body.light #shareLink:hover {
+      background: var(--highlight);
+      color: white;
+      border-color: var(--highlight);
+    }
+
+    /* 移动端适配：保持浮动且不遮挡重要内容 */
+    @media (max-width: 640px) {
+      #topControls {
+        top: 12px;
+        right: 12px;
+        padding: 6px 12px;
+        gap: 8px;
+      }
+      #fontControls button,
+      #toggleMode,
+      #toggleLang,
+      #shareLink {
+        padding: 4px 10px;
+        font-size: 0.75rem;
+      }
+      h1 {
+        font-size: 2.2rem;
+        margin-top: 80px;
+      }
+      p {
+        font-size: 1.1rem;
+      }
+    }
+    
+    .subtitle {
+      font-size: 1.2rem;
+      color: var(--highlight);
+      margin-bottom: 20px;
+    }
+    
+    .verse {
+      font-style: italic;
+      margin: 15px 0;
+    }
+    
+    footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid var(--text-color);
+      font-size: 1.1rem;
+    }
+
+    /* 经文区域优雅滚动 */
+    #sutra {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+
+<!-- 浮动控制栏: 完全浮定 (fixed + 玻璃质感) -->
+<div id="topControls">
+  <div id="fontControls">
+    <button id="toggleLang" aria-label="简繁切换">繁</button>
+    <button id="toggleMode" aria-label="亮色/暗色模式">亮</button>
+    <button id="zoomIn" aria-label="放大字体">大</button>
+    <button id="zoomOut" aria-label="缩小字体">小</button>
+    <button id="shareLink" aria-label="分享链接">分享</button>
+  </div>
+</div>
+
+<h1 id="mainTitle" data-simplified="佛说阿弥陀经" data-traditional="佛說阿彌陀經">佛说阿弥陀经</h1>
+
+<div id="videoCover">
+  <img src="https://pub-bfae9b39b66c495c8c35815699865b03.r2.dev/1.png" alt="佛说阿弥陀经封面">
+  <p id="videoText" data-simplified="🙏 点击封面 启动佛经播放" data-traditional="🙏 點擊封面 啟動佛經播放">🙏 点击封面 启动佛经播放</p>
+</div>
+
+<video id="amitabhaVideo" controls autoplay loop>
+  <source src="https://amtb.sun.edu.my/%E4%BD%9B%E8%AA%AA%E9%98%BF%E5%BD%8C%E9%99%80%E7%B6%93.mp4" type="video/mp4">
+  您的浏览器不支持 HTML5 视频播放。
+</video>
+
+<div id="sutra">
+  <div class="subtitle">姚秦．三藏法师．鸠摩罗什　奉诏译</div>
+
+  <div class="opening-verse">
+    <strong>开经偈</strong><br>
+    <div class='verse'>
+      无上甚深微妙法　百千萬劫难遭遇<br>
+      我今见闻得受持　愿解如来真实义
+    </div>
+  
+    <br>南无莲池海会佛菩萨<br>南无莲池海会佛菩萨<br>南无莲池海会佛菩萨<br>
+    <br>如是我闻。<br>
+    <br>一时佛在舍卫国，祗树给孤独园。<br>
+    <br>与大比丘僧，千二百五十人俱，皆是大阿罗汉，众所知识：长老舍利弗、摩诃目犍连、摩诃迦叶、摩诃迦旃延、摩诃俱希罗、离婆多、周利盘陀伽、难陀、阿难陀、罗侯罗、乔梵波提、宾头卢颇罗堕、迦留陀夷、摩诃劫宾那、薄拘罗、阿那楼陀，如是等诸大弟子。并诸菩萨摩诃萨：文殊师利法王子、阿逸多菩萨、乾陀诃提菩萨、常精进菩萨，与如是等诸大菩萨。<br>
+    <br>及释提桓因等，无量诸天大众俱。<br>
+    <br>尔时，佛告长老舍利弗："从是西方，过十万亿佛土有世界名曰极乐，其土有佛，号阿弥陀，今现在说法。"<br>
+    <br>"舍利弗，彼土何故名为极乐？其国众生，无有众苦，但受诸乐，故名极乐。"<br>
+    <br>"又舍利弗。极乐国土，七重栏循，七重罗网，七重行树，皆是四宝，周匝围绕，是故彼国名为极乐。"<br>
+    <br>"又舍利弗。极乐国土，有七宝池，八功德水，充满其中，池底纯以金沙布地。四边阶道，金银、琉璃、玻璃合成。上有楼阁，亦以金银、琉璃、玻璃、砗磲、赤珠、玛瑙而严饰之。池中莲花大如车轮，青色、青光、黄色、黄光、赤色、赤光、白色、白光，微妙香洁。"<br>
+    <br>"舍利弗。极乐国土，成就如是功德庄严。"<br>
+    <br>"又舍利弗。彼佛国土，常作天乐。黄金为地。昼夜六时，天雨曼陀罗华。其土众生，常以清旦，各以衣绒盛众妙华，供养他方十万亿佛，即以食时，还到本国，饭食经行。"<br>
+    <br>"舍利弗。极乐国土，成就如是功德庄严。"<br>
+    <br>复次舍利弗："彼国常有种种奇妙杂色之鸟：白鹤、孔雀、鹦鹉、舍利、迦陵频伽、共命之鸟。是诸众鸟，昼夜六时，出和雅音。其音演畅五根、五力、七菩提分、八圣道分，如是等法。其土众生，闻是音已，皆悉念佛、念法、念僧。"<br>
+    <br>"舍利弗。汝勿谓此鸟，实是罪报所生，所以者何？彼佛国土，无三恶道。"<br>
+    <br>"舍利弗。其佛国土，尚无三恶道之名，何况有实。是诸众鸟，皆是阿弥陀佛，欲令法音宣流，变化所作。"<br>
+    <br>"舍利弗。彼佛国土，微风吹动诸宝行树，及宝罗网，出微妙音，譬如百千种乐，同时俱作。闻是音者，自然皆生念佛、念法、念僧之心。"<br>
+    <br>"舍利弗。其佛国土，成就如是功德庄严。"<br>
+    <br>"舍利弗。于汝意云何？彼佛何故号阿弥陀？"<br>
+    <br>"舍利弗。彼佛光明无量，照十方国，无所障碍，是故号为阿弥陀。"<br>
+    <br>"又舍利弗。彼佛寿命，及其人民，无量无边阿僧只劫，故名阿弥陀。"<br>
+    <br>"舍利弗。阿弥陀成佛已来，于今十劫。"<br>
+    <br>"又舍利弗。彼佛有无量无边声闻弟子，皆阿罗汉，非是算数之所能知。诸菩萨众，亦复如是。"<br>
+    <br>"舍利弗。彼佛国土，成就如是功德庄严。"<br>
+    <br>"又舍利弗。极乐国土，众生生者，皆是阿裨跋致，其中多有一生补处，其数甚多，非是算数所能知之，但可以无量无边阿僧只说。"<br>
+    <br>"舍利弗。众生闻者，应当发愿，愿生彼国，所以者何？得与如是诸上善人俱会一处。"<br>
+    <br>"舍利弗。不可以少善根福德因缘，得生彼国。"<br>
+    <br>"舍利弗。若有善男子善女人，闻说阿弥陀佛，执持名号，若一日、若二日，若三日，若四日，若五日，若六日，若七日，一心不乱，其人临命终时，阿弥陀佛，与诸圣众，现在其前。是人终时，心不颠倒，即得往生阿弥陀佛极乐国土。"<br>
+    <br>"舍利弗。我见是利，故说此言。若有众生，闻是说者，应当发愿，生彼国土。"<br>
+    <br>"舍利弗。如我今者，赞叹阿弥陀佛，不可思议功德之利。东方亦有阿閦裨佛、须弥相佛、大须弥佛、须弥光佛、妙音佛，如是等恒河沙数诸佛，各于其国，出广长舌相，遍覆三千大千世界，说诚实言：'汝等众生，当信是称赞不可思议功德一切诸佛所护念经。'"<br>
+    <br>"舍利弗。南方世界，有：日月灯佛、名闻光佛、大焰肩佛、须弥灯佛、无量精进佛，如是等恒河沙数诸佛，各于其国，出广长舌相，遍覆三千大千世界，说诚实言：'汝等众生，当信是称赞不可思议功德一切诸佛所护念经。'"<br>
+    <br>"舍利弗。西方世界，有：无量寿佛、无量相佛、无量幢佛、大光佛、大明佛、宝相佛、净光佛，如是等恒河沙数诸佛，各于其国，出广长舌相，遍覆三千大千世界，说诚实言：'汝等众生，当信是称赞不可思议功德一切诸佛所护念经。'"<br>
+    <br>"舍利弗。北方世界，有：焰肩佛、最胜音佛、难沮佛、日生佛、网明佛，如是等恒河沙数诸佛，各于其国，出广长舌相，遍覆三千大千世界，说诚实言：'汝等众生，当信是称赞不可思议功德一切诸佛所护念经。'"<br>
+    <br>"舍利弗。下方世界，有：师子佛、名闻佛、名光佛、达摩佛、法幢佛、持法佛，如是等恒河沙数诸佛，各于其国，出广长舌相，遍覆三千大千世界，说诚实言：'汝等众生，当信是称赞不可思议功德一切诸佛所护念经。'"<br>
+    <br>"舍利弗。上方世界，有：梵音佛、宿王佛、香上佛、香光佛、大焰肩佛、杂色宝华严身佛、娑罗树王佛、宝华德佛、见一切义佛、如须弥山佛，如是等恒河沙数诸佛，各于其国，出广长舌相，遍覆三千大千世界，说诚实言：'汝等众生，当信是称赞不可思议功德一切诸佛所护念经。'"<br>
+    <br>"舍利弗。于汝意云何？何故名为一切诸佛所护念经？"<br>
+    <br>"舍利弗。若有善男子、善女人，闻是经受持者，及闻诸佛名者，是诸善男子、善女人，皆为一切诸佛之所护念，皆得不退转于阿耨多罗三藐三菩提。是故舍利弗，汝等皆当信受我语，及诸佛所说。"<br>
+    <br>"舍利弗。若有人已发愿、今发愿、当发愿，欲生阿弥陀佛国者，是诸人等，皆得不退转于阿耨多罗三藐三菩提，于彼国土，若已生、若今生、若当生。是故舍利弗，诸善男子、善女人，若有信者，应当发愿生彼国土。舍利弗，如我今者，称赞诸佛不可思议功德，彼诸佛等，亦称赞我不可思议功德，而作是言：'释迦牟尼佛能为甚难悉有之事，能于娑婆国土，五浊恶世，劫浊、见浊、烦恼浊、众生浊、命浊中，得阿耨多罗三藐三菩提。为诸众生，说是一切世间难信之法。'"<br>
+    <br>"舍利弗。当知我于五浊恶世，行此难事，得阿耨多罗三藐三菩提，为一切世间说此难信之法，是为甚难。"<br>
+    <br>佛说此经已，舍利弗，及诸比丘，一切世间天人阿修罗等，闻佛所说，欢喜信受，作礼而去。<br>
+    <br>佛说是经已，长老舍利弗，诸比丘，诸天、世人、阿修罗等，闻佛所说，皆大欢喜，信受奉行。<br>
+  </div>
+
+  <footer>
+
+<br>【赞佛偈】<br>
+<br>阿弥陀佛身金色，相好光明无等伦，白毫宛转五须弥，绀目澄清四大海，光中化佛无数亿，化菩萨众亦无边，四十八愿度众生，九品咸令登彼岸，南无阿弥陀佛，南无观世音菩萨，南无大势至菩萨 ，南无清净大海众菩萨 。<br>
+<br>【莲池赞】<br>
+<br>莲池海会，弥陀如来，观音势至坐莲台，接引上金阶，大誓弘开，普愿离尘埃，南无莲池海会佛菩萨 南无莲池海会佛菩萨 南无莲池海会佛菩萨。<br>
+<br>【发愿偈】<br>
+<br>愿生西方净土中， 九品莲华为父母，华开见佛悟无生，不退菩萨为伴侣，拔一切业障根本得生净土陀罗尼，南无阿弥多婆夜，哆他伽哆夜，哆地夜他，阿弥唎都婆毗，阿弥唎哆，悉耽婆毗，阿弥唎哆，毗迦兰帝 ，阿弥唎哆　毗迦兰哆，伽弥腻，伽伽那，枳多迦隶，娑婆诃 。<br>
+
+
+    <br>愿以此功德，庄严佛净土。上报四重恩，下济三途苦。<br>
+    若有见闻者，悉发菩提心。尽此一报身，同生极乐国。<br>
+    <br>南无阿弥陀佛<br>
+  </footer>
+</div>
+
+<script>
+  // 获取 DOM 元素
+  const toggleMode = document.getElementById('toggleMode');
+  const toggleLang = document.getElementById('toggleLang');
+  const zoomIn = document.getElementById('zoomIn');
+  const zoomOut = document.getElementById('zoomOut');
+  const videoCover = document.getElementById('videoCover');
+  const amitabhaVideo = document.getElementById('amitabhaVideo');
+  const sutraDiv = document.getElementById('sutra');
+  const mainTitle = document.getElementById('mainTitle');
+  const videoText = document.getElementById('videoText');
+  const shareLinkButton = document.getElementById('shareLink');
+
+  // 状态管理
+  let currentLang = localStorage.getItem('prefLang') || 'simplified';
+  let isLight = localStorage.getItem('prefTheme') === 'light';
+  let savedFont = localStorage.getItem('prefFontSize');
+
+  // 初始化 opencc 转换器 (简体 ↔ 繁体)
+  let originalSimplifiedHTML = '';
+  const storeOriginalHTML = () => {
+    const cloneSutra = sutraDiv.cloneNode(true);
+    if (currentLang === 'traditional') {
+      const converterBack = OpenCC.Converter({ from: 'tw', to: 'cn' });
+      const tempSimplified = converterBack(sutraDiv.innerHTML);
+      originalSimplifiedHTML = tempSimplified;
+    } else {
+      originalSimplifiedHTML = sutraDiv.innerHTML;
+    }
+  };
+
+  let toTraditional = null;
+  let toSimplified = null;
+  
+  const initConverters = () => {
+    if (typeof OpenCC !== 'undefined') {
+      toTraditional = OpenCC.Converter({ from: 'cn', to: 'tw' });
+      toSimplified = OpenCC.Converter({ from: 'tw', to: 'cn' });
+    } else {
+      setTimeout(initConverters, 100);
+    }
+  };
+  initConverters();
+
+  const applyLanguage = () => {
+    if (!toTraditional || !toSimplified) return;
+    if (currentLang === 'traditional') {
+      if (originalSimplifiedHTML) {
+        sutraDiv.innerHTML = toTraditional(originalSimplifiedHTML);
+      } else {
+        sutraDiv.innerHTML = toTraditional(sutraDiv.innerHTML);
+      }
+      mainTitle.textContent = mainTitle.getAttribute('data-traditional');
+      videoText.textContent = videoText.getAttribute('data-traditional');
+      toggleLang.textContent = '简';
+    } else {
+      if (originalSimplifiedHTML) {
+        sutraDiv.innerHTML = originalSimplifiedHTML;
+      } else {
+        sutraDiv.innerHTML = toSimplified(sutraDiv.innerHTML);
+      }
+      mainTitle.textContent = mainTitle.getAttribute('data-simplified');
+      videoText.textContent = videoText.getAttribute('data-simplified');
+      toggleLang.textContent = '繁';
+    }
+  };
+
+  const initOriginalBackup = () => {
+    if (currentLang === 'traditional' && toSimplified && toTraditional) {
+      const tempBack = toSimplified(sutraDiv.innerHTML);
+      originalSimplifiedHTML = tempBack;
+    } else {
+      originalSimplifiedHTML = sutraDiv.innerHTML;
+    }
+    applyLanguage();
+  };
+
+  // 视频播放
+  videoCover.addEventListener('click', () => {
+    videoCover.style.display = 'none';
+    amitabhaVideo.style.display = 'block';
+    amitabhaVideo.play().catch(e => console.log("自动播放被阻止:", e));
+  });
+
+  // 主题切换
+  const applyTheme = () => {
+    if (isLight) {
+      document.body.classList.add('light');
+      toggleMode.textContent = '暗';
+    } else {
+      document.body.classList.remove('light');
+      toggleMode.textContent = '亮';
+    }
+  };
+  
+  if (isLight) document.body.classList.add('light');
+  applyTheme();
+
+  toggleMode.addEventListener('click', () => {
+    isLight = !isLight;
+    applyTheme();
+    localStorage.setItem('prefTheme', isLight ? 'light' : 'dark');
+  });
+
+  // 字体大小控制
+  if (savedFont) sutraDiv.style.fontSize = savedFont;
+  zoomIn.addEventListener('click', () => {
+    let currentSize = parseFloat(getComputedStyle(sutraDiv).fontSize);
+    let newSize = currentSize + 1;
+    if (newSize > 36) newSize = 36;
+    sutraDiv.style.fontSize = newSize + 'px';
+    localStorage.setItem('prefFontSize', newSize + 'px');
+  });
+
+  zoomOut.addEventListener('click', () => {
+    let currentSize = parseFloat(getComputedStyle(sutraDiv).fontSize);
+    let newSize = currentSize - 1;
+    if (newSize < 12) newSize = 12;
+    sutraDiv.style.fontSize = newSize + 'px';
+    localStorage.setItem('prefFontSize', newSize + 'px');
+  });
+
+  toggleLang.addEventListener('click', () => {
+    if (currentLang === 'traditional') {
+      if (toSimplified) {
+        originalSimplifiedHTML = toSimplified(sutraDiv.innerHTML);
+      }
+    } else {
+      originalSimplifiedHTML = sutraDiv.innerHTML;
+    }
+    currentLang = currentLang === 'simplified' ? 'traditional' : 'simplified';
+    localStorage.setItem('prefLang', currentLang);
+    applyLanguage();
+  });
+
+  // 分享链接
+  shareLinkButton.addEventListener('click', async () => {
+    const urlToCopy = "https://www.amtb.cc";
+    try {
+      await navigator.clipboard.writeText(urlToCopy);
+      alert('链接已复制到剪贴板: ' + urlToCopy);
+    } catch (err) {
+      console.error('无法复制链接: ', err);
+      alert('无法复制链接，请手动复制: ' + urlToCopy);
+    }
+  });
+
+  window.addEventListener('DOMContentLoaded', () => {
+    setTimeout(() => {
+      initOriginalBackup();
+    }, 50);
+  });
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', () => {
+      setTimeout(() => initOriginalBackup(), 80);
+    });
+  } else {
+    setTimeout(() => initOriginalBackup(), 80);
+  }
+</script>
+</body>
+</html>
